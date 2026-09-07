@@ -1,1 +1,82 @@
-# NAVBAR
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Navbar</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family:Alike, sans-serif;
+        }
+
+        /* Navigation Bar */
+        nav{
+            background-color:red;
+            height:60px;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            padding:0 30px;
+        }
+
+        /* Logo */
+        .logo{
+            color:white;
+            font-size:35px;
+            font-weight:bold;
+        }
+
+        /* Menu */
+        ul{
+            list-style:none;
+            display:flex;
+        }
+
+        ul li{
+            margin-left:25px;
+        }
+
+        ul li a{
+            text-decoration:none;
+            color:white;
+            font-size:16px;
+            transition:0.3s;
+        }
+
+        ul li a:hover{
+            color:orange;
+        }
+
+        /* Content */
+        .content{
+            text-align:center;
+            margin-top:80px;
+        }
+    </style>
+
+</head>
+<body>
+
+    <nav>
+        <div class="logo">MyWebsite</div>
+
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <h1>Welcome to My Website</h1>
+        <p>This is a simple navigation bar using HTML and CSS.</p>
+    </div>
+
+</body>
+</html>
